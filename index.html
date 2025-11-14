@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sefer Hayachas</title>
 
-  <!-- Web fonts  -->
+  <!-- Elegant Hebrew + Latin fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew:wght@400;600&family=Cardo:wght@400;700&display=swap" rel="stylesheet" />
 
   <style>
@@ -33,7 +33,7 @@
       transition: background-color 0.4s ease, color 0.4s ease;
     }
 
-    /* Dark mode */
+    /* Dark‑mode preference */
     @media (prefers-color-scheme: dark) {
       body {
         background-color: var(--bg-dark);
@@ -50,8 +50,8 @@
       font-size: 1.5rem;
       line-height: 2.4rem;
       max-width: 800px;
-      color: inherit;
       margin-bottom: 2.2rem;
+      color: inherit;
     }
 
     .translation {
@@ -72,9 +72,11 @@
       color: var(--accent-light);
     }
 
+    /* Logo styling */
     img {
-      width: 220px;
-      opacity: 0.93;
+      width: 384px;      /* ≈ 4 inches */
+      max-width: 90%;
+      opacity: 0.95;
     }
 
     footer {
@@ -104,6 +106,9 @@
   </div>
 
   <h2>A project by:</h2>
-<img src="kls.svg" alt="Kwadrat Legacy Studio Ltd Logo" width="384" />  <footer>© 2025 Kwadrat Legacy Studio Ltd – All rights reserved.</footer>
+  <!-- Replace the file name below if you renamed your GIF -->
+  <img src="kls.gif" alt="Kwadrat Legacy Studio Ltd Logo" />
+
+  <footer>© 2025 Kwadrat Legacy Studio Ltd – All rights reserved.</footer>
 </body>
 </html>
