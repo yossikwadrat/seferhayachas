@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sefer Hayachas</title>
+
+  <!-- Web fonts  -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew:wght@400;600&family=Cardo:wght@400;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg-light: #f4f3f0;
+      --bg-dark: #141412;
+      --text-light: #1d1d1b;
+      --text-dark: #f4f3f0;
+      --accent-light: #b9983a;
+      --accent-dark: #d6b85a;
+    }
+
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: 'Cardo', serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      flex-direction: column;
+      background-color: var(--bg-light);
+      color: var(--text-light);
+      transition: background-color 0.4s ease, color 0.4s ease;
+    }
+
+    /* Dark mode */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: var(--bg-dark);
+        color: var(--text-dark);
+      }
+      .translation { color: #c1c0bd; }
+      footer { color: #aaa; }
+      img { filter: brightness(0.9); }
+    }
+
+    .verse {
+      direction: rtl;
+      font-family: 'Noto Serif Hebrew', serif;
+      font-size: 1.5rem;
+      line-height: 2.4rem;
+      max-width: 800px;
+      color: inherit;
+      margin-bottom: 2.2rem;
+    }
+
+    .translation {
+      direction: ltr;
+      font-family: 'Cardo', serif;
+      font-size: 1.05rem;
+      line-height: 1.8rem;
+      color: #555;
+      max-width: 720px;
+      margin-bottom: 2.8rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+      font-weight: 400;
+      letter-spacing: 0.15em;
+      margin-bottom: 1.2rem;
+      color: var(--accent-light);
+    }
+
+    img {
+      width: 220px;
+      opacity: 0.93;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.05em;
+      color: #777;
+    }
+
+    @media (max-width:600px) {
+      .verse { font-size: 1.2rem; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="verse">
+    וַיִּתֵּן אֱלֹקַי אֶל־לִבִּי וָאֶקְבְּצָה אֶת־הַחֹרִים וְאֶת־הַסְּגָנִים וְאֶת־הָעָם לְהִתְיַחֵשׂ<br>
+    וָאֶמְצָא סֵפֶר הַיַּחַשׂ<br>
+    הָעוֹלִים בָּרִאשׁוֹנָה וָאֶמְצָא כָּתוּב בּוֹ…
+  </div>
+
+  <div class="translation">
+    My G‑d put it into my mind to assemble the nobles, the prefects,
+    and the people, in order to register them by families.<br>
+    I found the genealogical register of those who were the first to come up, and there I found written…
+  </div>
+
+  <h2>A project by:</h2>
+  <img src="Letterhead4.svg" alt="Kwadrat Legacy Studio Ltd Logo" />
+  <footer>© 2025 Kwadrat Legacy Studio Ltd – All rights reserved.</footer>
+</body>
+</html>
