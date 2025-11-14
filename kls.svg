@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Isolation_Mode" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 595.28 841.89">
+  <!-- Generator: Adobe Illustrator 30.0.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 123)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #1d1d1b;
+      }
+
+      .st1 {
+        fill: #c59707;
+      }
+
+      .st2 {
+        font-family: TrajanPro3-Light, 'Trajan Pro 3';
+        font-size: 16px;
+        font-weight: 300;
+      }
+
+      .st3 {
+        font-family: TrajanPro3-Regular, 'Trajan Pro 3';
+        font-size: 10px;
+      }
+    </style>
+  </defs>
+  <text class="st0" transform="translate(255.98 427.05)"><tspan class="st2"><tspan x="0" y="0">Kwadrat</tspan></tspan><tspan class="st3"><tspan x="-13.16" y="12">Legacy Studio Ltd</tspan></tspan></text>
+  <g>
+    <path class="st1" d="M308.89,405.95h-21.9v-21.9h21.9v21.9ZM287.33,405.61h21.21v-21.21h-21.21v21.21Z"/>
+    <path class="st1" d="M295.71,394.66l2.29-2.44c1.24-1.33,2.17-2.29,2.17-2.87,0-.46-.48-.48-.85-.48v-.3c.73.02,1.46.03,2.21.03s1.48-.02,2.22-.03v.3h-.1c-1.48,0-2.62,1.18-4.36,3.02l-2.17,2.31c2.37,2.87,6.36,9,10.59,10.28,0-.03.03-.04.03-.07v-18.81c0-.22-.18-.39-.39-.39h-18.81c-.22,0-.39.18-.39.39v18.81c0,.22.18.39.39.39h17.54c-4.35-1.79-8.14-7.79-10.36-10.14ZM296.99,401.36c-.85-.02-1.53-.03-2.36-.03s-1.48.02-2.29.03v-.23c1.49-.2,1.66-.88,1.66-2.49v-7.36c0-1.61-.17-2.29-1.66-2.47v-.23c.78.02,1.56.03,2.34.03s1.54-.03,2.31-.07v.27c-1.53.18-1.71.83-1.71,2.47v7.36c0,1.64.18,2.31,1.71,2.49v.23Z"/>
+  </g>
+</svg>
