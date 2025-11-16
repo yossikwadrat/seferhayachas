@@ -51,8 +51,16 @@
       font-size: 1.5rem;
       line-height: 2.4rem;
       max-width: 800px;
-      margin-bottom: 0.8rem;
+      margin-bottom: 0.1rem; /* tighter spacing */
       color: inherit;
+    }
+
+    .verse-source {
+      font-size: 0.9rem;
+      font-weight: 700;
+      margin-top: 0;
+      margin-bottom: 1.6rem;
+      color: #555;
     }
 
     .translation {
@@ -62,14 +70,15 @@
       line-height: 1.8rem;
       color: #555;
       max-width: 720px;
-      margin-bottom: 0.6rem;
+      margin-bottom: 0.1rem; /* tighter spacing */
     }
 
-    .verse-source {
+    .translation-source {
       font-size: 0.9rem;
       font-weight: 700;
-      color: #555;
+      margin-top: 0;
       margin-bottom: 2.2rem;
+      color: #555;
     }
 
     h2 {
@@ -78,6 +87,14 @@
       letter-spacing: 0.15em;
       margin-bottom: 1.2rem;
       color: var(--accent-light);
+    }
+
+    .bzrh {
+      font-family: 'Noto Serif Hebrew', serif;
+      font-size: 0.9rem;
+      color: var(--accent-light);
+      margin-top: 0.6rem;
+      margin-bottom: 1.3rem;
     }
 
     img {
@@ -100,7 +117,7 @@
 </head>
 
 <body>
-    <h2 dir="rtl">בעזרת ה׳ יתברך</h2>
+  <div class="bzrh">בעזרת ה׳ יתברך</div>
 
   <div class="verse">
     וַיִּתֵּן אֱלֹקַי אֶל־לִבִּי וָאֶקְבְּצָה אֶת־הַחֹרִים וְאֶת־הַסְּגָנִים וְאֶת־הָעָם לְהִתְיַחֵשׂ<br>
@@ -114,7 +131,8 @@
     I found the genealogical register <br>
     of those who were the first to come up, and there I found written…
   </div>
-  <p class="verse-source" dir="ltr">(Nechemiah 7:5)</p>
+  <p class="translation-source" dir="ltr">(Nechemiah 7:5)</p>
+
 
   <h2>A project by:</h2>
   <img src="kls.gif" alt="Kwadrat Legacy Studio Ltd Logo" />
